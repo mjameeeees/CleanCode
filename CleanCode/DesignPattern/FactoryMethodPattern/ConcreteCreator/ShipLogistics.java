@@ -1,12 +1,12 @@
-package FactoryMethodPattern.ConcreteCreator;
+package CleanCode.DesignPattern.FactoryMethodPattern.ConcreteCreator;
 
-import FactoryMethodPattern.ConcreteProduct.Ship;
-import FactoryMethodPattern.Creator.Logistics;
-import FactoryMethodPattern.Interface.Transport;
+import CleanCode.DesignPattern.FactoryMethodPattern.ConcreteProduct.Ship;
+import CleanCode.DesignPattern.FactoryMethodPattern.Creator.Logistics;
+import CleanCode.DesignPattern.FactoryMethodPattern.Interface.Transport;
 
 public class ShipLogistics extends Logistics {
     @Override
-    public Transport createTransport(){
+    public Tranport createTransport(){
         return new Ship();
     }
 }

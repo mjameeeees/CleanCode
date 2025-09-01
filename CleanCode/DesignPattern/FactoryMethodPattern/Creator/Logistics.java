@@ -1,6 +1,6 @@
 package CleanCode.DesignPattern.FactoryMethodPattern.Creator;
 
-import FactoryMethodPattern.Interface.Transport;
+import CleanCode.DesignPattern.FactoryMethodPattern.Interface.Transport;
 
 public abstract class Logistics{
         //Factory Method Declaration
