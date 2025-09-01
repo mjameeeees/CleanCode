@@ -1,4 +1,4 @@
-package FactoryMethodPattern.Creator;
+package CleanCode.DesignPattern.FactoryMethodPattern.Creator;
 
 import FactoryMethodPattern.Interface.Transport;
 
