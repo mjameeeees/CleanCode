@@ -6,8 +6,9 @@ public class designpaattern {
         Singleton b = Singleton.getinstance();
         
         a.showMessage("Mark James" , 10000);
-        System.out.println(a == b);
+        a.showMessage("Queenie Ambulo" , 20000);
+        System.out.println(a);
+        System.out.println(b);
+
     }
 }
-
-
