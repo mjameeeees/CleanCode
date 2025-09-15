@@ -14,5 +14,4 @@ public class Client {
             double totalPrice =  accessoriesBox.getPrice();
             System.out.println(totalPrice);
     }
-
 }
