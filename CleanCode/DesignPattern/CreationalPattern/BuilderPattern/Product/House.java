@@ -1,7 +1,7 @@
 package BuilderPattern.Product;
 
 public class House {
-        private String walls;
+    private String walls;
     private String roof;
     private String doors;   
     private String windows;
